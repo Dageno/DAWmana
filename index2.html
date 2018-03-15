@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquer.js"></script>
+    <script src="js/jQueryUI.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/jqueryPonente.js"></script>
+    <script src="js/validaciones.js"></script>
+    
+    <title>DAWmana Daniel Gestino</title>
+</head>
+<body>
+    <div class="page">
+        <nav>
+            <ul style="width: 30%; margin: 0 auto;">
+                <li id="perfil"><a href="#">Perfil</a></li>
+                <li id="ponencia"><a href="#">Ponencia</a></li>
+
+            </ul>
+        </nav>
+        <main>
+            <h3>Actividad a Realizar</h3>
+            <div class='form'>
+            <label>Introduce Nombre </label>
+            <input type='text' id=nombre required />
+            <p id=errNombre></p>
+            <label>Descripcion breve</label>
+            <input type='text' id=apellidos required/>
+            <p id=errApellido></p>
+            <label>Descripcion extensa</label>
+            <textarea id=dni required></textarea>
+            <p id=errDni></p>
+            <label>Introduce tu URL de imagen</label>
+            <input type='text' id=correo required/>
+            <p id=errCorreo></p>
+            <label>Material de Ponente</label>
+            <textarea  required></textarea>
+            <label>Material de Asistentes</label>
+            <textarea  required></textarea>
+            <label>Nº Asistentes</label>
+            <input type="number"  required/>
+            <input type='button' id="validar" value='Enviar'/>
+            </div>
+        </main>
+        <footer>
+                
+            <div class="patrocinadores">
+                    <p>Patrocinadores: </p>
+                    <div class="marquesina">
+                        <a href="#"><img src="https://www.actuall.com/wp-content/uploads/2017/04/amazon-logo-preview.png" /></a>
+                        <a href="#"><img src="https://pmmproducts.es/wp-content/uploads/2016/06/dobuss.png" /></a>
+                    </div>
+            </div>
+           
+            
+        </footer>
+
+    </div>
+    
+</body>
+</html>
