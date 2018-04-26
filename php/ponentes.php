@@ -60,6 +60,63 @@ $ponentes = array(
                 "organizacion" => "UCO",
                 "foto" => "http://informatica.iesgrancapitan.org/wp-content/uploads/2014/02/10nicolasgarcia-150x150-1.jpg",
                 
+            ),
+
+            9 => array(
+                "nombre" =>"Claudia López Iglesias",
+                "organizacion" => "WUL4",
+                "foto" => "https://assets3.domestika.org/avatars/000/081/313/81313-original.jpg?1438296099",
+                
+            ),
+
+            10 => array(
+                "nombre" =>"Javier Aguirre",
+                "organizacion" => "IES Gran Capitán",
+                "foto" => "https://pbs.twimg.com/profile_images/934849322457419776/PjRVSDlO_400x400.jpg",
+                
+            ),
+
+            11 => array(
+                "nombre" =>"Cristina Santamarina",
+                "organizacion" => "Theneonproject.org",
+                "foto" => "https://pbs.twimg.com/profile_images/983017088854953984/rhd3wIU__400x400.jpg",
+                
+            ),
+
+            12 => array(
+                "nombre" =>"Javier Aguirre",
+                "organizacion" => "IES Gran Capitán",
+                "foto" => "https://pbs.twimg.com/profile_images/934849322457419776/PjRVSDlO_400x400.jpg",
+                
+            ),
+
+            13 => array(
+                "nombre" =>" Manuel Jiménez",
+                "organizacion" => "IES Gran Capitán",
+                "foto" => "https://pbs.twimg.com/profile_images/932273133184323584/tRRgWHGU_400x400.jpg",
+                
+            ),
+
+            14 => array(
+                "nombre" =>"Raúl Valentín",
+                "organizacion" => "IES Gran Capitán",
+                "foto" => "https://pbs.twimg.com/profile_images/2150173583/yo_400x400.jpg",
+                
+            ),
+
+            15 => array(
+                "nombre" =>"Juan Antonio Romero ",
+                "organizacion" => "Sopinet Software",
+                "foto" => "https://pbs.twimg.com/profile_images/910230420079480833/sGBmv2fn_400x400.jpg",
+                
+            ),
+
+            16 => array(
+                "nombre" =>"Fernando Hidalgo",
+                "organizacion" => "Sopinet Software",
+                "foto" => "https://pbs.twimg.com/profile_images/837679589199609856/50IXAcpw_400x400.jpg",
+                
             )
+
         );
 ?>

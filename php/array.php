@@ -81,5 +81,66 @@ $actividades = array(
             ),
         ),
 
+        "miercoles" => array(
+            0 => array(
+                "nombre" => "Design IS. Diseño con Ilustrator",
+                "ponente" => " Claudia López Iglesias",
+                "foto" => "https://assets3.domestika.org/avatars/000/081/313/81313-original.jpg?1438296099",
+                "hora" => "9:00 - 10:00",
+                "descripcion" => "Taller de diseño, teoría y manejo de Ilustrator.",
+            ),
+            1 => array(
+                "nombre" =>"ChatBots",
+                "ponente" => "Javier Aguirre",
+                "foto" => "https://pbs.twimg.com/profile_images/934849322457419776/PjRVSDlO_400x400.jpg",
+                "hora" => "10:00 - 11:30",
+                "descripcion" => "Chatbots! Todo el mundo habla de ellos, pero qué son y por dónde empezar? Veremos de dónde vienen los chatbots y cómo empezar a implementar uno",
+            ),
+            2 => array(
+                "nombre" =>"Taller sobre Bots 102",
+                "ponente" =>  "Cristina Santamarina",
+                "foto" => "https://pbs.twimg.com/profile_images/983017088854953984/rhd3wIU__400x400.jpg",
+                "hora" => "12:00 - 13:00",
+                "descripcion" => "Aprenderemos a diseñar un chatbot con Chatfuel y Dialog�ow.",
+            ),
+        ),
+
+
+        "jueves" => array(
+            0 => array(
+                "nombre" => " Producción de Realidad Virtual ",
+                "ponente" => "  Manuel Jiménez ",
+                "foto" => "https://pbs.twimg.com/profile_images/932273133184323584/tRRgWHGU_400x400.jpg",
+                "hora" => "9:00 - 10:00",
+                "descripcion" => "Taller introductorio al uso de CoSpaces, una herramienta web que permite de forma sencilla y directa producir escenas inmersivas e interactivas, usar modelos 3D predefinidos o incorporarlos propios y pudiendo programar los eventos con un lenguaje de bloques o directamente con código.",
+            ),
+            1 => array(
+                "nombre" =>" Cómo construir un modelo predictivo con Machine Learning ",
+                "ponente" => " Raúl Valentín ",
+                "foto" => "https://pbs.twimg.com/profile_images/2150173583/yo_400x400.jpg",
+                "hora" => "10:00 - 11:30",
+                "descripcion" => "Chatbots! Todo el mundo habla de ellos, pero qué son y por dónde empezar? Veremos de dónde vienen los chatbots y cómo empezar a implementar uno",
+            ),
+        
+        ),
+
+        "viernes" => array(
+            0 => array(
+                "nombre" => " P  Iniciación al desarrollo de servicios REST  ",
+                "ponente" => "  Juan Antonio Romero  ",
+                "foto" => "https://pbs.twimg.com/profile_images/910230420079480833/sGBmv2fn_400x400.jpg",
+                "hora" => "9:00 - 10:00",
+                "descripcion" => "Introducción al desarrollo de una REST API. Veremos los motivos para desarrollar aplicaciones con esta arquitectura y la teoría para llevarlo a cabo, tratando de seguir las buenas prácticas. Después se mostrará un ejemplo básico desarrollado con Django.",
+            ),
+            1 => array(
+                "nombre" =>" Más allá de Agile ",
+                "ponente" => "  Fernando Hidalgo ",
+                "foto" => "https://pbs.twimg.com/profile_images/837679589199609856/50IXAcpw_400x400.jpg",
+                "hora" => "10:00 - 11:30",
+                "descripcion" => "Cómo se estructura Sopinet Software y cómo se implementa nuestra ambiciosa filosofía, basada    en tres pilares Agile: Transparencia, Sin miedo y Valor humano. Cómo luchamos continuamente   contra la corriente de lo tradicional yendo #masalladeagile   Se hablará de: nuestra política salarial, transparente y establecida a  través de fórmulas; nuestra transparencia y métricas implementada con nuestras bombillas   inteligentes,  etc...",
+            ),
+        
+        ),
+
 );
 ?>

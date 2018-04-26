@@ -61,9 +61,7 @@ let comprobarProcedencia = function(){
 }
 
 let loguear = function(){
-    alert("hola");
     if($('#user').val()==="ponente" && $('#pass').val()==="ponente"){
-        alert("hola");
         location.href ="index2.html";
         return;
     }

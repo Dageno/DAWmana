@@ -70,7 +70,7 @@ let llamarPonentes = function(){
             let array = data
             for(let i = 0; i<array.length;i++){
                 $('#tarjetas').append("<div class='card'>"+
-                    "<a href='"+array[i].foto+"' data-lightbox='image-1' data-title='My caption' ><img name='carrusel' src='"+array[i].foto+"' class='card-media' /></a>"+
+                    "<a href='"+array[i].foto+"' data-lightbox='Ponentes' data-title='Ponentes' ><img name='carrusel' src='"+array[i].foto+"' class='card-media' /></a>"+
                     "<div class='card-details'>"+
                         "<h2 id='nombre' class='card-head'>"+array[i].nombre+"</h2>"+
                         "<p id='organizacion'>"+array[i].organizacion+"</p>"+
