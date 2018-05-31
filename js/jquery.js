@@ -6,10 +6,9 @@ let vaciarForm = function(){
 let validarFormIngreso = function(){
    comprobarNombre()
    comprobarApellidos()
-  comprobarLetraDni()
+   comprobarLetraDni()
    comprobarCorreo()
    comprobarNombre()
-    console.log($('#errNombre').text());
     if( $('#errNombre').text() == "" && $('#errApellido').text()=="" && $('#errDni').text()=="" &&  $('#errCorreo').text()=="" && $('#errProcedencia').text()==""){
         alert("Gracias por su ingreso");
         vaciarForm();
@@ -66,7 +65,6 @@ let login = function(){
 let llamarPonentes = function(){
     $.getJSON("php/comunicador.php", {"datos": "ponentes"})
     .done(function(data){
-        console.log(data)
             let array = data
             for(let i = 0; i<array.length;i++){
                 $('#tarjetas').append("<div class='card'>"+
@@ -159,8 +157,6 @@ let menu = function(){
             break;
     }
 }
-
-
 
 $((function () {
     $('.principal').delay(1000).toggle("puff");

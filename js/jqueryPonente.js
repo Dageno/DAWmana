@@ -34,25 +34,26 @@ let ponencia = function(){
     $('main').append("<h3>Actividad a Realizar</h3>"+
     "<div class='form'>"+
     "<label>Introduce Nombre </label>"+
-    "<input type='text' id=nombre required />"+
+    "<input type='text' id=nombre regex='^[A-Z][a-z0-9ü_]{3,14}' required />"+
     "<p id=errNombre></p>"+
     "<label>Descripcion breve</label>"+
-    "<input type='text' id=apellidos required/>"+
+    "<input type='text' id=apellidos regex='^[A-Z][a-z0-9ü_]{3,}' required/>"+
     "<p id=errApellido></p>"+
     "<label>Descripcion extensa</label>"+
-    "<textarea id=dni required></textarea>"+
+    "<textarea id=dni regex='^[A-Z][a-z0-9ü_]{20,}' required></textarea>"+
     "<p id=errDni></p>"+
     "<label>Introduce tu URL de imagen</label>"+
-    "<input type='text' id=correo required/>"+
+    "<input type='text' id=correo regex='^[a-z0-9ü_]{1,}' required/>"+
     "<p id=errCorreo></p>"+
     "<label>Material de Ponente</label>"+
     "<textarea  required></textarea>"+
     "<label>Material de Asistentes</label>"+
     "<textarea  required></textarea>"+
     "<label>Nº Asistentes</label>"+
-    "<input type='number'  required/>"+
+    "<input regex='^[0-9]{1,}'type='number'  required/>"+
     "<input type='button' id='validar' value='Enviar'/>"+
     "</div>");
+    $('.form input[type="text"]').validar();
 }
 
 let menu = function(){
@@ -103,12 +104,12 @@ $((function () {
     $('main').toggle("slide");
     $('footer').delay(300).fadeIn("slow");
     $("li").click(menu);
-    $('#nombre').on("focusout", comprobarNombre);
-    $('#apellidos').on("focusout", comprobarApellidos);
+    $('.form input[type="text"]').validar();
+    $('#Apellidos').on("focusout", comprobarApellidos);
     $('#dni').on("focusout", comprobarLetraDni);
     $('#correo').on("focusout", comprobarCorreo);
     $('#procedencia').on("focusout", comprobarProcedencia);
 
-    $('#validar').click(validarFormIngreso);
+    
   
 }));

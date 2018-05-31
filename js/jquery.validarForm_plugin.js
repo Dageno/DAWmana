@@ -3,6 +3,31 @@
         validar:function(){
             this.each(function(){
                 let $this = $(this);
+                $this.on('focusout', function(){
+                    var expresion = new RegExp($this.attr("regex"));
+                    var valor = $this.val();
+                    
+                    if(!expresion.test(valor)){
+                        $("#err"+$this.attr('id')).html("Error en la expresion").css({ "color" : "red"});
+                        $this.css({ "background-color" : "#e44e2d" });
+                    
+                    }else{
+                        $("#err"+$this.attr('id')).html("")
+                        $this.css({ "background-color" : "#00ff00" });
+                    
+                    }
+                    
+                });
+               return;
+            })
+        }
+    })
+})(jQuery)
+
+
+
+/*
+let $this = $(this);
                 switch($this.attr("type")){
                     case "text":
                         $this.focus(function(){
@@ -99,7 +124,5 @@
                     break;
 
                 }
-            })
-        }
-    })
-})(jQuery)
+
+*/
